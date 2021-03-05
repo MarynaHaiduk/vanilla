@@ -27,10 +27,6 @@ ol {
     font-size: 16px;
 }
 
-ul {
-    list-style-type: none;
-}
-
 input {
     border-radius: 7px;
     padding: 5px;
@@ -43,15 +39,6 @@ button {
     padding: 5px;
     margin: 5px 5px;
     border-radius: 7px;
-    /* text-transform: uppercase; */
     background: #282c34;
-    /* background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
-    background-size: 200% auto;
-    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
-    transition: .5s; */
     cursor: pointer;
-}
-
-#all-todo {
-    color: gray;
 }
