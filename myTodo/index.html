@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1">
+  <title>Todo App</title>
+  <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+
+<main>
+  <h1>Todo App</h1>
+  
+  <div class="container" id="all-todo">
+    <img src="./images/pexels-andrew-neel-2312369.jpg"
+         width="400px" height="300px" alt="Workplace"/>
+    <p><small>Todo: <span>0</span></small></p>
+  </div>
+  
+  <div class="container">
+    <h3 onclick="changeText()">Create new task:</h3>
+    <input type="text" id="todoInput">
+    <button onclick="addToList()">Add</button>
+    <br>
+    
+    <h3>My tasks: </h3>
+    <ol id="list">
+      <li>Task 1</li>
+    </ol>
+    <button onclick="DeleteAllTasks()">Delete All</button>
+  </div>
+</main>
+
+<script src="todo.js"></script>
+
+</body>
+</html>
